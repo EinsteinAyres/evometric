@@ -1,0 +1,729 @@
+{
+    "resolucao": "1920x1080",
+    "titulo": "EvoMetric | Roadmap Java + Arquitetura Empresarial 2025",
+    "caminho_fundo": "java-logo-3840x2160-15990.png",
+    "fundo_cor": [
+        30,
+        30,
+        30
+    ],
+    "texto_cor_principal": [
+        255,
+        255,
+        255
+    ],
+    "texto_cor_concluido": [
+        0,
+        255,
+        100
+    ],
+    "contorno_cor": [
+        0,
+        0,
+        0
+    ],
+    "contorno_largura": 2,
+    "caminho_saida": "C:\\Users\\ayres\\Projetos_Python\\EvoMetric\\image\\java prog.png",
+    "modulos": [
+        {
+            "nome": "FASE 1: Fundação Spring Boot 3 + Java Moderno (S1-S6)",
+            "tipo": "FASE",
+            "concluido": false
+        },
+        {
+            "nome": "S1: Java 21 LTS - Features Modernas",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Records & Sealed Classes",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Refatorar DTOs legados para Records imutáveis",
+                            "concluido": true
+                        },
+                        {
+                            "nome": "Modelar hierarquias de domínio com Sealed Classes",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Pattern Matching & Virtual Threads",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Implementar Switch expressions + instanceof patterns",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Comparar performance Loom vs thread pools tradicionais",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S2: Clean Architecture + DDD Tático",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Arquitetura Hexagonal & DDD",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Implementar Hexagonal Architecture (Ports & Adapters)",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Aplicar DDD: Aggregates, Value Objects, Domain Events",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "SOLID & Testes Arquiteturais",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "SOLID: Dependency Inversion com Spring",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Projeto: Módulo com testes de arquitetura (ArchUnit)",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S3: Testes de Qualidade Sênior",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Automação e Integração",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "JUnit 5: @ParameterizedTest, @TestFactory",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Testcontainers: Testes com PostgreSQL/Redis reais",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Qualidade dos Testes",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Mutation Testing: PIT para validar qualidade",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Contract Testing: Pact para compatibilidade entre serviços",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S4: Spring Boot 3.3+ - Observability Native",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Performance e Observabilidade",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Criar API REST com Spring Boot 3.3",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Native Image com GraalVM (startup <100ms)",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Configuração",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Observability: Micrometer Observation API integrada",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Configuração avançada: Profiles, ConfigMaps, @ConfigurationProperties",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S5: Persistência Avançada - JPA + Patterns",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Evolução e Mapeamento",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Flyway com versionamento semântico + rollback scripts",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Mapeamentos complexos: herança, ElementCollection, Converter",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Performance e Concorrência",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Optimistic Locking (@Version) + Pessimistic Locking",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "N+1 Problem: Detectar e resolver (EntityGraph)",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S6: Segurança Zero Trust",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Autenticação e Autorização",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "OAuth2/OIDC com Keycloak (não apenas JWT simples)",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Spring Security 6: SecurityFilterChain, RBAC + ABAC",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Proteção de Microsserviços",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "mTLS para comunicação entre microsserviços",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Rate limiting com Bucket4j + Redis",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "FASE 2: Microsserviços Cloud-Native (S7-S12)",
+            "tipo": "FASE",
+            "concluido": false
+        },
+        {
+            "nome": "S7-8: Resiliência Production-Grade",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Padrões de Resiliência",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Resilience4j: Circuit Breaker, Bulkhead, Retry, TimeLimiter",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Fallback strategies: cache degradation, default responses",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Validação de Falhas",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Chaos Engineering: Implementar Chaos Monkey básico",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Testes de resiliência: simular falhas de rede, timeout, 500 errors",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S9-10: Containerização & Orquestração",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Otimização de Imagens Docker",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Dockerfile Multi-Stage: distroless images (~50MB)",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Docker Compose: stack completa (3 services + DB + Kafka)",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Kubernetes",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "K8s: Deployments, Services, ConfigMaps, Secrets",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Health checks (liveness, readiness, startup probes)",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S11: CI/CD Enterprise",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Qualidade Automatizada",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "SonarQube: quality gates, code coverage, security hotspots",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "GitHub Actions: matriz de builds (Java 21/17 compatibility)",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Gerenciamento de Dependências",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Gradle/Maven: multi-module builds, dependency management",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Semantic versioning automático (Conventional Commits)",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S12: Service Mesh Conceitual + Istio",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Gerenciamento de Tráfego",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Istio: Traffic management, circuit breaking no sidecar",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Canary deployments (10% -> 50% -> 10%)",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Segurança e Observabilidade",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Mutual TLS automático entre serviços",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Observability: Distributed tracing com Jaeger integrado",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "FASE 3: Performance & Event-Driven Architecture (S13-S18)",
+            "tipo": "FASE",
+            "concluido": false
+        },
+        {
+            "nome": "S13-14: Programação Reativa Avançada",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Reactor e WebFlux",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Spring WebFlux: routers funcionais, backpressure handling",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Reactor: Mono/Flux, operators (map, flatMap, zip, merge)",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Persistência e Performance",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "R2DBC: persistência reativa com PostgreSQL",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Comparação blocking vs reactive: load tests com Gatling",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S15: Caching Estratégico Multi-Layer",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Cache Distribuído (L2)",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Redis: Cache-aside, write-through, write-behind patterns",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Redis Cluster: simulação de sharding e replicação",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Cache Local (L1) e Spring",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Caffeine: cache local de alta performance (L1)",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Spring Cache: @Cacheable, @CacheEvict, custom key generator",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S16-17: Arquitetura Event-Driven c/ Kafka",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Consistência e Mensageria",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Kafka fundamentals: topics, partitions, consumer groups",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Transactional Outbox Pattern: garantir consistência eventual",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Processamento e Contratos",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Avro/Protobuf: schemas para contratos de eventos",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Kafka Streams: agregações e transformações em tempo real",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S18: Spring Batch Modernizado",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Processamento e Paralelismo",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Spring Batch 5: chunk processing, tasklets, listeners",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Job partitioning para processamento paralelo",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Integração e Robustez",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Integração com Kafka: ler de tópico, processar, escrever em DB",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Retry/skip strategies para falhas parciais",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "FASE 4: Observabilidade & Projeto Capstone (S19-S24)",
+            "tipo": "FASE",
+            "concluido": false
+        },
+        {
+            "nome": "S19: Observability Stack Completa",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Traces e Logs",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Logging estruturado: Logback + JSON, correlation IDs",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "OpenTelemetry: instrumentação automática de traces",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Visualização e Agregação",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Jaeger/Zipkin: visualizar distributed tracing",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Log aggregation: Grafana Loki (mais leve que ELK)",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S20: Métricas & Alerting Production-Ready",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Captura de Dados",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Micrometer: custom metrics, timers, gauges, counters",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Prometheus: PromQL, recording rules",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Visualização e Ações",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Grafana: dashboards com SLIs (error rate, latency, throughput)",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Alertmanager: routing, grouping, silencing de alertas",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S21: Infrastructure as Code Avançado",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Provisionamento Cloud (Terraform)",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Terraform: provisionar EKS/GKE cluster + RDS + ElastiCache",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Módulos reutilizáveis, remote state (S3/GCS)",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Deploy Kubernetes (GitOps)",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Helm Charts: empacotar microsserviços com values customizáveis",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "GitOps workflow: ArgoCD conceitual",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S22: Projeto Capstone - Design Arquitetural Completo",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Modelagem de Sistemas",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "C4 Model: System Context, Container, Component diagrams",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Event Storming: mapear domínio com eventos de negócio",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Documentação e Escopo",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "ADRS (Architecture Decision Records): 5-7 decisões documentadas",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Definição de 4 Microsserviços do Capstone",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S23: Projeto Capstone - Implementação Core",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Funcionalidade e Resiliência",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "4 microsserviços funcionais com testes (70%+ coverage)",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Circuit breakers em todas as chamadas externas",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Comunicação e Performance",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Comunicação via Kafka com Transactional Outbox",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Cache distribuído com Redis Cluster",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "S24: Projeto Capstone - Observabilidade, Doc. & Marketing",
+            "concluido": false,
+            "subtopicos": [
+                {
+                    "nome": "Prova de Conceito (PoC)",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Grafana dashboards: RED metrics (Rate/Errors/Duration) por serviço",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Jaeger traces: visualizar latência end-to-end (payment → billing)",
+                            "concluido": false
+                        }
+                    ]
+                },
+                {
+                    "nome": "Entrega Final",
+                    "concluido": false,
+                    "praticas": [
+                        {
+                            "nome": "Vídeo demo (5-7min): arquitetura + resiliência em ação",
+                            "concluido": false
+                        },
+                        {
+                            "nome": "Blog post: 'Arquitetando um Sistema de Cobrança que Escala'",
+                            "concluido": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
